@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets - Smart Translation Search"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Smart Translation Search"
+    href="/apps/demo-utils/instructions/smart-translation-search.html"
+    icon="substractFromSelection"
+    id="aem-demo-utils__smart-translation-search"
+    target="_blank"/>
+<!-- icon="globeSearch" -->

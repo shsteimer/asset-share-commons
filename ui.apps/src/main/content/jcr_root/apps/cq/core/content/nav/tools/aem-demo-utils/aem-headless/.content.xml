@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="AEM Headless"
+    jcr:description="AEM Content Services - Use AEM Content Services to power native Mobile Apps"
+    href="/apps/demo-utils/instructions/aem-headless.html"
+    icon="devicePhone"
+    id="aem-demo-utils__aem-headless"
+    target="_blank"/>

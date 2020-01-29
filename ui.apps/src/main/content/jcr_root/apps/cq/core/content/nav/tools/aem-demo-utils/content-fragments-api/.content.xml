@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Content Services - Demo Content Fragments support for Assets HTTP API"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Content Fragments HTTP API"
+    href="/apps/demo-utils/instructions/content-fragments-api.html"
+    icon="selectContainer"
+    id="aem-demo-utils__content-fragments-api"
+    target="_blank"/>

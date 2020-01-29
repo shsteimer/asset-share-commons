@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/rep:policy"/>
+    <filter root="/home/users/system/aem-demo-utils"/>
+
+    <!-- WF Models for applying Demo Utils Data-->
+    <filter root="/var/workflow/models/demo/utils"/>
+
+    <!-- Mock Asset Insights -->
+    <filter root="/etc/cloudservices/sitecatalyst/assetinsights" mode="merge"/>
+
+    <filter root="/oak:index/damAssetLucene-1-custom-1"/>
+    <filter root="/oak:index/lucene-1-custom-1"/>
+</workspaceFilter>

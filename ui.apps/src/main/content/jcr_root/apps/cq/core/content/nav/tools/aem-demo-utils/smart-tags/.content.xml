@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets - Adobe Sensei adds metadata describing image assets for quick discovery"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Smart Tags"
+    href="/apps/demo-utils/instructions/smart-tags.html"
+    icon="tags"
+    id="aem-demo-utils__smart-tag"
+    target="_blank"/>

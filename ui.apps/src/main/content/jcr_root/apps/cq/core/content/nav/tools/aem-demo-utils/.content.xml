@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="sling:OrderedFolder"
+    jcr:title="Demo Utils"
+    id="aem-demo-utils">
+
+    <demo-utils />
+
+    <bulk-setup/>
+
+    <smart-tags/>
+    <visual-search/>
+    <adobe-asset-link/>
+    <adobe-stock/>
+    <asset-insights/>
+    <asset-share-commons/>
+    <connected-assets/>
+
+    <dynamic-media/>
+    <smart-crop/>
+    <dynamic-media-360-vr/>
+
+
+
+    <!-- Sites -->
+    <core-components-showcase/>
+    <core-components-library/>
+    <spa-editor />
+    <hybrid-cms />
+
+    <aem-headless />
+    <content-fragments-api/>
+
+    <generate-tasks/>
+
+    <cloud-manager />
+
+    <!-- Not available in AEM as a Cloud Service -->
+    <forms/>
+    <brand-portal/>
+    <smart-translation-search/>
+    <email-server/>
+</jcr:root>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets + Dynamic Media - Deliver immersive experiences using 360 and VR assets"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="360/VR Videos"
+    href="/apps/demo-utils/instructions/dynamic-media-360-vr.html"
+    icon="asset"
+    id="aem-demo-utils__dynamic-media-360-vr"
+    target="_blank"/>

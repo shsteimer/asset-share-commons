@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Core Components Library"
+    jcr:description="AEM Sites - The Core Component Library is a reference of all Core Components and how the look and can be configured."
+    href="/apps/demo-utils/instructions/core-components-library.html"
+    icon="bookmark"
+    id="aem-demo-utils__core-components-library"
+    target="_blank"/>

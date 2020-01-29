@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets + Dynamic Media - Adobe Sensei intelligently crop images to ensure the image maintains compositional integrity"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Smart Crop"
+    href="/apps/demo-utils/instructions/smart-crop.html"
+    icon="cropLightning"
+    id="aem-demo-utils__smart-crop"
+    target="_blank"/>

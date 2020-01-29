@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets - Simulate Asset Insights performance and usage data"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Asset Insights"
+    href="/apps/demo-utils/instructions/asset-insights.html"
+    icon="graphAreaStacked"
+    id="aem-demo-utils__asset-insights"
+    target="_blank"/>

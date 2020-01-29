@@ -1,0 +1,227 @@
+{
+	"info": {
+		"_postman_id": "6db7cd2c-fbab-428f-8600-5808cbadd594",
+		"name": "CRUD CFM API We.Retail",
+		"description": "A full set of CRUD operations based on the new content fragments of the We.Retail",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get content fragment - SJ",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4502/api/assets/we-retail/en/stores/we-retail-store-san-jose.json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"api",
+						"assets",
+						"we-retail",
+						"en",
+						"stores",
+						"we-retail-store-san-jose.json"
+					]
+				},
+				"description": "Creates a new content fragment using the We.Retail CFM template \"we-retail-store-info\""
+			},
+			"response": []
+		},
+		{
+			"name": "Create content fragment",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"properties\": {\n        \"description\": \"We Retail Store Basel\",\n        \"title\": \"We Retail Store Basel\",\n        \"cq:model\": \"/conf/we-retail/settings/dam/cfm/models/we-retail-store-info\",\n        \"elements\": {\n            \"reference\": {\n                \"value\": [\n                    \"/content/dam/we-retail/en/activities/hiking/hiking_4.jpg\"\n                ]\n            },\n            \"address\": {\n                \":type\": \"text/html\",\n                \"value\": \"<p><a href=\\\"https://www.google.com/maps/place/Adobe+Research+Schweiz+AG/@47.5549948,7.5878088,17z/data=!4m12!1m6!3m5!1s0x4791b9ad9c816313:0xd15e9d6b3e7f18a9!2sAdobe+Research+Schweiz+AG!8m2!3d47.5549948!4d7.5899975!3m4!1s0x4791b9ad9c816313:0xd15e9d6b3e7f18a9!8m2!3d47.5549948!4d7.5899975\\\">Barfüsserpl. 6, 4051 Basel, Switzerland</a><br>\\n</p>\\n\"\n            },\n            \"contactnumber\": {\n                \"value\": 41612265500\n            },\n            \"gift-cards\": {\n                \"value\": false\n            },\n            \"openinghours\": {\n                \":type\": \"text/html\",\n                \"value\": \"<table>\\n<tbody><tr><td>Monday</td>\\n<td>8AM–5PM</td>\\n</tr><tr><td>Tuesday</td>\\n<td>8AM–5PM</td>\\n</tr><tr><td>Wednesday</td>\\n<td>8AM–5PM</td>\\n</tr><tr><td>Thursday</td>\\n<td>8AM–5PM</td>\\n</tr><tr><td>Friday</td>\\n<td>8AM–5PM</td>\\n</tr><tr><td>Saturday</td>\\n<td>Closed</td>\\n</tr><tr><td>Sunday</td>\\n<td>Closed</td>\\n</tr></tbody></table>\\n\"\n            },\n            \"dateopened\": {\n                \"value\": 1507573440000\n            },\n            \"description\": {\n                \"value\": \"Basel is a city in northwestern Switzerland on the river Rhine. Basel is Switzerland's third-most-populous city (after Zürich and Geneva) with about 180,000 inhabitants.\"\n            },\n            \"storelocation\": {\n                \"value\": \"WeRetail Basel, Switzerland\"\n            },\n            \"events\": {\n                \":type\": \"text/html\",\n                \"value\": \"<ul style=\\\"list-style-position: inside;\\\">\\n<li>Summer 2017 Biking Challenge 25k</li>\\n<li>10k Marathon organized by WeRetail&nbsp;for Green Environment Initiative</li>\\n<li>Mission Peak Hike Challenge</li>\\n</ul>\\n\"\n            },\n            \"tags\": {\n                \"value\": [\n                    \"we-retail:activity/biking\",\n                    \"we-retail:activity/hiking\"\n                ]\n            }\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4502/api/assets/we-retail/en/stores/we-retail-store-basel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"api",
+						"assets",
+						"we-retail",
+						"en",
+						"stores",
+						"we-retail-store-basel"
+					]
+				},
+				"description": "Creates a new content fragment using the We.Retail CFM template \"we-retail-store-info\""
+			},
+			"response": []
+		},
+		{
+			"name": "Update content fragment",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"properties\": {\n        \"description\": \"We Retail Store Basel, Swisneyland\",\n        \"title\": \"We Retail Store Basel, Swisneyland\",\n        \"cq:model\": \"/conf/we-retail/settings/dam/cfm/models/we-retail-store-info\",\n        \"elements\": {\n            \"gift-cards\": {\n                \"value\": true\n            },\n            \"dateopened\": {\n                \"value\": 941587200000\n            },\n            \"storelocation\": {\n                \"value\": \"WeRetail Basel, Swisneyland\"\n            },\n             \"address\": {\n                \":type\": \"text/html\",\n                \"value\": \"<p><a href=\\\"https://www.google.com/maps/place/Adobe+Research+Schweiz+AG/@47.5549948,7.5878088,17z/data=!4m12!1m6!3m5!1s0x4791b9ad9c816313:0xd15e9d6b3e7f18a9!2sAdobe+Research+Schweiz+AG!8m2!3d47.5549948!4d7.5899975!3m4!1s0x4791b9ad9c816313:0xd15e9d6b3e7f18a9!8m2!3d47.5549948!4d7.5899975\\\">Barfüsserpl. 6, 4051 Basel, Swisneyland</a><br>\\n</p>\\n\"\n            },\n            \"tags\": {\n                \"value\": [\n                    \"we-retail:activity/biking\"\n                ]\n            }\n        }\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:4502/api/assets/we-retail/en/stores/we-retail-store-basel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"api",
+						"assets",
+						"we-retail",
+						"en",
+						"stores",
+						"we-retail-store-basel"
+					]
+				},
+				"description": "Creates a new content fragment using the We.Retail CFM template \"we-retail-store-info\""
+			},
+			"response": []
+		},
+		{
+			"name": "Get content fragment - Basel",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4502/api/assets/we-retail/en/stores/we-retail-store-basel.json",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"api",
+						"assets",
+						"we-retail",
+						"en",
+						"stores",
+						"we-retail-store-basel.json"
+					]
+				},
+				"description": "Creates a new content fragment using the We.Retail CFM template \"we-retail-store-info\""
+			},
+			"response": []
+		},
+		{
+			"name": "Delete content fragment",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"type": "text",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:4502/api/assets/we-retail/en/stores/we-retail-store-basel",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "4502",
+					"path": [
+						"api",
+						"assets",
+						"we-retail",
+						"en",
+						"stores",
+						"we-retail-store-basel"
+					]
+				},
+				"description": "Creates a new content fragment using the We.Retail CFM template \"we-retail-store-info\""
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "password",
+				"value": "admin",
+				"type": "string"
+			},
+			{
+				"key": "username",
+				"value": "admin",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "5f8793a2-7c30-4f91-bc12-e83924294c8f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "deebcb36-cba7-4e61-b30c-8628e2c1582f",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	]
+}

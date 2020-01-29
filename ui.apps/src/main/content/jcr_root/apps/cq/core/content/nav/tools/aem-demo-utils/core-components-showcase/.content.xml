@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Core Components Showcase"
+    jcr:description="AEM Sites - Explore the Core Component Showcase, a few sites build (almost) entirely from Core Components"
+    href="/apps/demo-utils/instructions/core-components-showcase.html"
+    icon="adDisplay"
+    id="aem-demo-utils__core-components-showcase"
+    target="_blank"/>

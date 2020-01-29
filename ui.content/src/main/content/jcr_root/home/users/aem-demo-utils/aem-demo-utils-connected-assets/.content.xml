@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:granite="http://www.adobe.com/jcr/granite/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:lastModified="{Date}2020-01-22T17:08:23.510-05:00"
+    cq:lastModifiedBy="admin"
+    jcr:lastModified="{Date}2020-01-22T17:08:23.510-05:00"
+    jcr:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="ba65666e-3d07-31a2-a475-6ba174e39ff1"
+    rep:authorizableId="aem-demo-utils-connected-assets"
+    rep:password="\{SHA-256}bb9d09f9c0bc02a0-1000-495b30a56959d1adaed7d4311915543bf17b913b195767fef97e7ca2e31f49c8"
+    rep:principalName="aem-demo-utils-connected-assets">
+    <profile
+        jcr:mixinTypes="[granite:Ranking,mix:title]"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        familyName="Connected Assets Technical User"
+        gender="Select"/>
+    <profiles jcr:primaryType="nt:unstructured">
+        <public
+            jcr:mixinTypes="[granite:Ranking,mix:title]"
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="cq/security/components/profile"/>
+    </profiles>
+</jcr:root>

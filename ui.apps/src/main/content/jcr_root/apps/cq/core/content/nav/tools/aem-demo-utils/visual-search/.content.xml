@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="nt:unstructured"
+          jcr:title="Visual Search"
+          jcr:description="AEM Assets - Adobe Sensei lets you find images that look similar"
+          href="/apps/demo-utils/instructions/visual-search.html"
+          icon="imageSearch"
+          id="aem-demo-utils__visual-search"
+          target="_blank"/>

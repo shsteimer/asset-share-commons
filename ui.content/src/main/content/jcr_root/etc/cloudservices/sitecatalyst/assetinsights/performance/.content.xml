@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="sitecatalyst"
+        cq:designPath="/etc/designs/cloudservices/framework-design"
+        cq:template="/libs/cq/analytics/templates/framework"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="performance"
+        sling:resourceType="cq/analytics/components/framework">
+        <public
+            cq:trackingServer="bee.112.2o7.net"
+            cq:trackingServerSecure="bee.112.2o7.net"
+            cq:visitorNamespace="bee"
+            jcr:primaryType="nt:unstructured"
+            reportsuite="assetstesting"
+            reportsuites="assetstesting;">
+            <mappings
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="cq/analytics/components/mappings/maparsys"/>
+        </public>
+    </jcr:content>
+</jcr:root>

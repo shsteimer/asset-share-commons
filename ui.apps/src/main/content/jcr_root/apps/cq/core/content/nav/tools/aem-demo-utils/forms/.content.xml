@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Set up AEM Forms"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="AEM Forms"
+    href="/apps/demo-utils/instructions/forms.html"
+    icon="substractFromSelection"
+    id="aem-demo-utils__forms"
+    target="_blank"/>
+<!-- icon-"form" -->

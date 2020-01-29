@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Page">
+    <jcr:content
+        cq:cloudservicename="sitecatalyst"
+        cq:template="/libs/cq/analytics/templates/sitecatalyst"
+        jcr:primaryType="cq:PageContent"
+        jcr:title="assetinsights"
+        sling:resourceType="cq/analytics/components/sitecatalystpage"
+        company="bee"
+        connectedWhen="username"
+        password="\{2dea30a8fac7818e826f16e34d5fada9cf0457574a6c822ea1eb2d446e1e8b50}"
+        secret="\{b12ee9fe709d1f3d7cf01d2d7b39db96739c02930c9c867668a6231fcf58d49bc1ef057bc8cb37e3c8719e543db5f8da826a8ee659f81451fc55d7e45c30d585}"
+        server="https://api.omniture.com/admin/1.4/rest/"
+        username="dityagi"/>
+    <performance/>
+</jcr:root>

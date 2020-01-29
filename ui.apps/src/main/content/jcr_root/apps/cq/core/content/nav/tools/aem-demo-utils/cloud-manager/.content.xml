@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="A self-service Web portal to manage AEM environments"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Adobe Cloud Manager"
+    href="/apps/demo-utils/instructions/cloud-manager.html"
+    icon="globeClock"
+    id="aem-demo-util__cloud-manager"
+    target="_blank"/>

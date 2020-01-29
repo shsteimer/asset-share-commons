@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets - Integrate your AEM with a shared demo Brand Portal"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Brand Portal"
+    href="/apps/demo-utils/instructions/brand-portal.html"
+    icon="substractFromSelection"
+    id="aem-demo-utils__brand-portal"
+    target="_blank"/>
+
+<!-- icon="upload" -->

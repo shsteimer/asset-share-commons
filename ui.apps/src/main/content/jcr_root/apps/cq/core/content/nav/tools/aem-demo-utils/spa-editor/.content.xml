@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Sites - Empower marketers to create and author Single Page App experiences"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="SPA Editor"
+    href="/apps/demo-utils/instructions/spa-editor.html"
+    icon="app"
+    id="aem-demo-utils__spa-editor"
+    target="_blank"/>

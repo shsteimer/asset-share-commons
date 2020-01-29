@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+        <title>${properties['jcr:title']}</title>
+
+        <link rel="stylesheet" type="text/css" href="/apps/demo-utils/clientlibs/demo-utils.css"/>
+
+        <sly data-sly-include="launch-script.html"></sly>
+        <sly data-sly-include="inline-styles.html"></sly>
+        <sly data-sly-include="shared-scripts.html"></sly>
+        <sly data-sly-include="inline-scripts.html"></sly>
+    </head>
+
+    <body>
+        <div class="content-wrapper">
+            <sly data-sly-include="header.html"></sly>
+            <sly data-sly-include="instructions.html"></sly>
+        </div>
+
+        <script type="text/javascript" src="/apps/demo-utils/clientlibs/demo-utils.js"></script>
+    </body>
+</html>

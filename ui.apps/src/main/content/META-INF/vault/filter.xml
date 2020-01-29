@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/demo-utils"/>
+
+    <filter root="/apps/settings/workflow/models/demo/utils"/>
+
+    <!-- Tools console -->
+    <filter root="/apps/cq/core/content/nav/tools/aem-demo-utils"/>
+
+    <!-- Increase WF to Folder application in Assets from 15 to 1500 -->
+    <filter root="/apps/dam/gui/content/assets/jcr:content/rails/timeline"/>
+</workspaceFilter>

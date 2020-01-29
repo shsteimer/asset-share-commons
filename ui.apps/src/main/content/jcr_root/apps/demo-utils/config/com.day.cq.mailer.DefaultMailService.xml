@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+          jcr:primaryType="sling:OsgiConfig"
+          debug.email="{Boolean}false"
+          from.address="aem@enablementadobe.com"
+          smtp.host="smtp.sendgrid.net"
+          smtp.port="465"
+          smtp.ssl="{Boolean}true"
+          smtp.user="apikey"
+          smtp.password="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"/>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Projects - Generate mock AEM Inbox Tasks"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Inbox Tasks"
+    href="/apps/demo-utils/instructions/generate-tasks.html"
+    icon="inbox"
+    id="aem-demo-utils__generate-tasks"
+    target="_blank"/>

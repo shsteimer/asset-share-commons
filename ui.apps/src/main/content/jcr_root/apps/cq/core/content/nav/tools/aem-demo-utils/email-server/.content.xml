@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="Send e-mail from AEM"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="AEM Email Server"
+    href="/apps/demo-utils/instructions/email-server.html"
+    icon="substractFromSelection"
+    id="aem-demo-utils__email-server"
+    target="_blank"/>
+<!-- icon="email" -->

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:description="AEM Assets - Rendition and deliver assets using the power of Dynamic Media"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Dynamic Media"
+    href="/apps/demo-utils/instructions/dynamic-media.html"
+    icon="cloud"
+    id="aem-demo-utils__dynamic-media"
+    target="_blank"/>
