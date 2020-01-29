@@ -18,7 +18,7 @@
     <groupId>com.adobe.aem.demo</groupId>
     <artifactId>com.adobe.aem.demo.demo-utils</artifactId>
     <packaging>pom</packaging>
-    <version>2020.01.29</version>
+    <version>2020.01.30-SNAPSHOT</version>
     <description>demo-utils</description>
 
     <modules>
@@ -47,7 +47,7 @@
     <scm>
         <connection>scm:git:git@git.corp.adobe.com:aem-technical-marketing/com.adobe.aem.demos.all-demos.git</connection>
         <developerConnection>scm:git:git@git.corp.adobe.com:aem-technical-marketing/com.adobe.aem.demos.all-demos.git</developerConnection>
-        <tag>com.adobe.aem.demo.demo-utils-2020.01.29</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
