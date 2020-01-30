@@ -18,6 +18,18 @@ The release versions do NOT follow semantic versioning, rather the version is th
 $ mvn release:prepare
 $ mvn release:perform -Darguments="-Dmaven.deploy.skip=true"
 ```
+###
+
+Deploy the packages to aem.enablemebtadobe.com/maven
+
+```
+// Demo Utils
+mvn deploy:deploy-file -Durl=file:///Users/dgonzale/demo-maven-repository/ -Dfile=/Users/dgonzale/code/demo/com.adobe.aem.demo.demo-utils/ui.content/target/com.adobe.aem.demo.demo-utils.ui.content-2020.01.29.zip -DgroupId=com.adobe.aem.demo -DartifactId=com.adobe.aem.demo.demo-utils.ui.content -Dpackaging=zip -Dversion=2020.01.29
+mvn deploy:deploy-file -Durl=file:///Users/dgonzale/demo-maven-repository/ -Dfile=/Users/dgonzale/code/demo/com.adobe.aem.demo.demo-utils/ui.apps/target/com.adobe.aem.demo.demo-utils.ui.apps-2020.01.29.zip -DgroupId=com.adobe.aem.demo -DartifactId=com.adobe.aem.demo.demo-utils.ui.apps -Dpackaging=zip -Dversion=2020.01.29
+```
+
+*  SFTP to enable2.eastus.cloudapp.azure.com `/var/www/html/maven`
+* Copy the files from the `-Durl` location for demo-utils into the corresponding folder under `/var/www/html/maven`
 
 Generate the zip file for Demo Utils and replace the existing AEM Package with the latest version :
 
