@@ -1,10 +1,8 @@
-
 AEM Demo Utils can be used to expedite the demoing of AEM as a Cloud Service by providing:
 
 + List of common features to demo
 + Instructions on how to set up feature and how to demo them
 + Some features have automatic set-up using shared Demo credentials provided by Demo Utils project
-
 
 ## What can I demo on AEM as a Cloud Service vs Quickstart Jar?
 
@@ -19,7 +17,6 @@ For more complete lists including bug-fix and roadmap status please review the f
 ### Supported features
 
 The following are features that are intended to work on AEM as a Cloud Service (note, that some may be broken on both AEM as a Cloud Service and Quickstart Jar at this time, but these are unplanned bugs).
-
 
 |      | Feature | AEM as a Cloud Service | Quickstart Jar |
 |------|---------|------------------------|----------------|
