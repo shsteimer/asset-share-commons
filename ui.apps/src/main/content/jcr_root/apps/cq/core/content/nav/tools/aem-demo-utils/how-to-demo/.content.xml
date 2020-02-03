@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
-    jcr:description="Learn about Demo Utils, including FAQs about how to demo AEM as a Cloud Service"
     jcr:primaryType="nt:unstructured"
-    jcr:title="How to demo AEM as a Cloud Service"
-    href="/apps/demo-utils/instructions/demo-utils.html"
+    jcr:title="How to demo"
+    jcr:description="How to demo AEM as a Cloud Service"
+    href="/apps/demo-utils/instructions/how-to-demo.html"
     icon="adobeExperienceManager"
     id="aem-demo-utils__demo-utils"
     target="_blank"/>

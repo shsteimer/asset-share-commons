@@ -3,4 +3,4 @@
     jcr:primaryType="sling:Folder"
     sling:resourceType="demo-utils/instructions/demo-utils"
     sling:resourceSuperType="demo-utils/components/base"
-    jcr:title="How to demo AEM as a Cloud Service"/>
+    jcr:title="How to demo"/>

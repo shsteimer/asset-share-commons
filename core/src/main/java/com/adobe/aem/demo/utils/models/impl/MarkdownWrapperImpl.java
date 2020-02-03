@@ -9,6 +9,8 @@ import org.apache.sling.models.annotations.DefaultInjectionStrategy;
 import org.apache.sling.models.annotations.Model;
 import org.apache.sling.models.annotations.injectorspecific.OSGiService;
 import org.apache.sling.models.annotations.injectorspecific.Self;
+import org.commonmark.Extension;
+import org.commonmark.ext.gfm.tables.TablesExtension;
 import org.commonmark.node.Node;
 import org.commonmark.parser.Parser;
 import org.commonmark.renderer.html.HtmlRenderer;
@@ -21,6 +23,7 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
 import java.util.regex.Pattern;
 
 @Model(adaptables = {SlingHttpServletRequest.class}, adapters = {MarkdownWrapper.class}, resourceType = {
@@ -83,11 +86,15 @@ public class MarkdownWrapperImpl implements MarkdownWrapper {
 
     protected String processMarkdownFile(final InputStream inputStream) throws IOException {
         if (inputStream != null) {
-            Parser parser = Parser.builder().build();
+
             try (InputStreamReader reader = new InputStreamReader(inputStream, StandardCharsets.UTF_8)) {
 
+                final ArrayList<Extension> extensions = new ArrayList<>();
+                extensions.add(TablesExtension.create());
+                final Parser parser = Parser.builder().extensions(extensions).build();
+                final HtmlRenderer renderer = HtmlRenderer.builder().extensions(extensions).build();
+
                 final Node document = parser.parseReader(reader);
-                final HtmlRenderer renderer = HtmlRenderer.builder().build();
                 final String htmlString = renderer.render(document);
 
                 return htmlString;

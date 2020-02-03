@@ -4,7 +4,7 @@
     jcr:title="Demo Utils"
     id="aem-demo-utils">
 
-    <demo-utils/>
+    <how-to-demo/>
     <all-demos/>
     <bulk-setup/>
 

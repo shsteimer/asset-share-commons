@@ -60,6 +60,7 @@
                 <configuration>
                     <scmCommentPrefix>[maven-scm] :</scmCommentPrefix>
                     <preparationGoals>clean install</preparationGoals>
+                    <autoVersionSubmodules>true</autoVersionSubmodules>
                     <goals>install</goals>
                     <releaseProfiles>release</releaseProfiles>
                 </configuration>
