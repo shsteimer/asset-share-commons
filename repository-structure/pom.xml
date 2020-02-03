@@ -8,7 +8,7 @@
     <parent>
         <groupId>com.adobe.aem.demo</groupId>
         <artifactId>com.adobe.aem.demo.demo-utils</artifactId>
-        <version>2020.01.30-SNAPSHOT</version>
+        <version>2020.02.03</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
