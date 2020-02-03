@@ -1,8 +1,10 @@
-AEM Demo Utils is a tool to help expedite the demoing of AEM as a Cloud Service. It contains:
+
+AEM Demo Utils can be used to expedite the demoing of AEM as a Cloud Service by providing:
 
 + List of common features to demo
 + Instructions on how to set up feature and how to demo them
 + Some features have automatic set-up using shared Demo credentials provided by Demo Utils project
+
 
 ## What can I demo on AEM as a Cloud Service vs Quickstart Jar?
 
@@ -45,6 +47,8 @@ The following are features that are intended to work on AEM as a Cloud Service (
 ### Unsupported and Roadmap Features
 
 The following features are currently not supported by AEM as a Cloud Service. Items in this list may eventually be supported by AEM as a Cloud Service.
+
+The ETA column in the table below gives a rough indicator when features might be made available in AEM as a Cloud Service. Note that the timing may change as priorities evolve.
 
 
 |        | ETA  | Feature |
@@ -98,7 +102,7 @@ Once an Adobe IMS Org youre part of is provisioned for AEM as a Cloud Service:
 
 ---
 
-### How do I install demos onto my AEM as a Cloud Service sandbox environment?
+### How do I install demos on my AEM as a Cloud Service sandbox environment?
 
 AEM as a Cloud Service (running in the Adobe Cloud) can only have Code deployed to it via Adobe Cloud Manager, which requires knowledge of AEM Maven Projects and Git.
 
@@ -108,7 +112,7 @@ To review how demo applications can be installed, please review this [deployment
 
 ### How do I run AEM as a Cloud Service locally?
 
-To get download the AEM as a Cloud Service Quickstart Jar:
+Download and run the AEM as a Cloud Service Quickstart Jar:
 
 1. In a browser, navigate to [https://downloads.experiencecloud.adobe.com](https://downloads.experiencecloud.adobe.com/content/software-distribution/en/aemcloud.html) and login with your Adobe ID.
 2. Navigate to the AEM as a Cloud Service tab and download the latest AEM SDK zip file.
@@ -118,9 +122,9 @@ To get download the AEM as a Cloud Service Quickstart Jar:
 
 ---
 
-### How do I install demos onto my local AEM as Cloud Service instance?
+### How do I install demos onto my local Quickstart Jar.
 
-Demo packages can be installed in the usual way, using AEM Package Manager.
+Demo packages can be installed on the local AEM as a Cloud Service Quickstart Jar in the usual way, using AEM Package Manager.
 
 + [http://localhost:4502/crx/packmgr/index.jsp](http://localhost:4502/crx/packmgr/index.jsp)
 
