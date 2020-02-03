@@ -4,8 +4,8 @@
     jcr:title="Demo Utils"
     id="aem-demo-utils">
 
-    <demo-utils />
-
+    <demo-utils/>
+    <all-demos/>
     <bulk-setup/>
 
     <smart-tags/>
