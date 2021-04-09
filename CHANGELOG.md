@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 ## [Unreleased]
 
+### Changed
+
+- 0604: Modified interface classes for most component models to be @ConsumerType rather than @ProviderType to allow for easier extensions to ASC components.
+
 ## [v2.0.2]
 
 ### Fixed
